@@ -42,17 +42,17 @@ export const Navbar = () => {
       id="main-navbar"
       position="sticky"
       className="bg-white/95 dark:bg-darkbg/95 text-black dark:text-darkfg">
-      {/* Left Content */}
+
       <NavbarContent className="basis-1//5 sm:basis-full" justify="start">
         <a href="/">
-          <img src={logo} alt="Logo" className="h-16 w-auto" />
+          <img src={logo} alt="Logo" />
         </a>
         <NavbarBrand className="gap-3 max-w-fit">
           <Link
             className="flex justify-start items-center gap-1"
             color="foreground"
             href="/">
-            {/* Puedes agregar texto o elementos aquí si quieres */}
+
           </Link>
         </NavbarBrand>
 
