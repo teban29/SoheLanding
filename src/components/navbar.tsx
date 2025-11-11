@@ -45,7 +45,7 @@ export const Navbar = () => {
 
       <NavbarContent className="basis-1//5 sm:basis-full" justify="start">
         <a href="/">
-          <img src={logo} alt="Logo" />
+          <img src={logo} alt="Logo" className="h-16 lg:h-full" />
         </a>
         <NavbarBrand className="gap-3 max-w-fit">
           <Link
